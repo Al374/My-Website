@@ -1,0 +1,317 @@
+body, html, body, div, span,h1, h2, h3, h4, h5, h6, p, ul, li, article, nav, time,{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, footer, header, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+  }
+ol, ul {
+    list-style: none;
+  }
+#wrap {
+  width: 100%;
+  min-width: 1000px;  /* Prevent poor bleeding */
+  background: #fff;
+    }
+#wrap , #subwarp {
+    display: block;
+}
+
+#wrap , #subwarp {
+    border-width: auto: 
+
+}
+#main .group li {
+    display: inline-block;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    display: block
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px}
+li {
+    text-align: -webkit-background-size;
+}
+
+#nav-home {display: none;}
+nav[role="navigation"] li + li { margin-left: 100px; }
+nav[role="navigation"] ul li a, nav[role="navigation"] ul li a:visited {
+        display: block;
+        color: #b2b2b2;
+        width: auto;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 3px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        -ms-border-radius: 4px;
+        border-radius: 4px;
+        margin: 10px 0;
+        }
+ nav[role="navigation"] ul li a:hover, nav[role="navigation"] ul li a:focus {
+    background: #df4747;
+    color: #fff;
+            } 
+.home #nav-home a, .articles #nav-articles a, .archive #nav-articles a, .port #nav-port a, .reading #nav-reading a, .about #nav-about a {
+    background-color: rgb(238, 238, 238);
+    color: #555}  
+.home #nav-home a:hover,.home #nav-home a:focus,.articles #nav-articles a:hover,.articles #nav-articles a:focus,.home #nav-port a:hover,
+        .home #nav-port a:focus,.home #nav-reading a:hover,.home #nav-reading a:focus,.home #nav-about a:hover,.home #nav-about a:focus {
+          background: #df4747;
+          color: #fff;
+          }
+#articles-lst {
+  border-top: 4px solid #333;
+  margin: 0 auto;
+  clear: both;
+  }
+/*
+----------------------------------------------------------------
+    A - C O N T E N T
+---------------------------------------------------------------- */
+
+.home article {
+  border-bottom: 2px solid #333;
+  padding: 20px 0;
+  }
+
+.home article .feature p {
+    margin-bottom: .2em;
+    font-weight: 300;
+    line-height: 24px;
+    }
+.home a article .feature p {
+      color: #444;
+      }
+
+.home article.post {
+    padding: 10px 0 0;
+    }
+.home .expert .excerpt a {
+      text-decoration: underline;
+      }
+.home article time {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: proxima-nova-extra-condensed,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Arial,sans-serif;
+}
+ .home article time {
+    float: left;
+    margin-right: 5px;
+    width: 60px;
+    }
+    .home article time span {
+      font-weight: 300;
+      display: block;
+      text-align: left;
+      }
+.home .feature time, .home .feature h1 {
+    display: inline-block;
+    width: auto;
+}
+.home .feature p {
+    padding-left: 50px;
+    font-size: 110%
+}
+
+ .home .feature h1 {
+    font-weight: 300;
+    line-height: 30px;
+    margin: 5px 0;
+    font-size: 24px
+    }
+.home .feature  a:link, a:visited {
+    text-decoration: none;
+    color: #df4747;
+}
+
+
+/*  A - A R T I C L E  */
+.feature h1 {
+  clear: both;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: .3em;
+  }
+.feature p {
+  font-weight: 400;
+  line-height: 1.5em;
+  }
+hr {display: none;}
+
+#submain {
+    display: block;
+}
+#sub1, #sub2 {
+    display: inline-flex;
+}
+#subz, #sub1b, #sub1c {
+    display: inline-flex;
+}
+#subz {
+    width: 440px; 
+    margin-right: 30px;
+}
+#sub1b{
+    width: 350px;
+    margin-right: 30px;
+
+}
+#sub1c{
+    width: 250px;   
+
+}
+li {
+    list-style: none;
+    text-align: left;
+
+}
+.elsewhere{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.container1 {
+    display: block;
+    }
+.container1 span {
+    margin: 10 px; 
+}
+
+.container1 h2 {
+    font-size: 24px ;
+    font-weight: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    }
+.container1 h2 {
+    font-size: 1.5rem;
+}
+.container1 span {
+    letter-spacing: 1px;
+}
+.container1 h2{
+    color: #df4747;
+}
+#sub1b h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #df4747;
+}
+#sub1c h2 {
+    text-transform: uppercase;
+    color: #df4747;
+    font-size: 1.5rem;
+}
+
+#sub2 h2 {
+    text-transform: uppercase;
+    color: #df4747;
+    font-size: 1.5rem;
+}
+span {
+    width: 450px;
+}
+#sub2 .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+#sub2 img.left {
+    width: 150px;
+    height: 200px;  
+    margin-bottom: 10px; 
+}
+dt img.left{
+    display: block;
+}
+}
+.more1 {
+    margin-top: 5px;
+}
+#submain a.more {
+  letter-spacing: 2px;
+  background: white;
+  padding: 2px;
+  color: #b2b2b2;
+  width: auto;
+  font-weight: 300;
+  text-transform: uppercase;
+  vertical-align: bottom;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+ }
+#submain a:hover.more, #submain a:focus.more {
+    background: #df4747;
+    color: #fff; 
+    }
+
+#submain a:link, #submain a:visited {
+    text-decoration: none;
+    color: #666;
+    transition:  color .2s ;
+   }
+#submain a:hover{
+    background: #df4747;
+    color: #fff;
+ } 
+
+}
+dd.by{
+    color: #b2b2b2
+}
+
+.home .feature time {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 35px; 
+    margin-right: 2rem; 
+}
+.home .feature time span {
+    margin-left: .6rem; 
+}
+
+
+/*#sub1a .group.lst.bbss.proj {
+    border: 2px solid black;
+}*/
+/*#sub1b .group.bbss{
+    border: 2px solid green;
+}
+/**/
+
+
+/*#sub1a .group.lst.bbss.proj , #sub1b .group.bbss {*/
+/*, #sub1a .group.lst.bbss.proj , #sub1b .group.bbss {
+    float: left;
+    width: 33%
+}
+
+#sub1 .group.me , #sub1a .group.lst.bbss.proj , #sub1b .group.bbss {
+    display: inline-block;}
+
+#sub2,#sub1 {
+    display: block;
+}*/
+
